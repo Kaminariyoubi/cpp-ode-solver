@@ -1,0 +1,26 @@
+[
+{
+  "directory": "/home/kazeyoubi/JobWork/simplified_serial/build",
+  "command": "/home/kazeyoubi/miniconda3/envs/cfd7/bin/c++ -DCPPNUM_HAVE_MPI -DCPPNUM_HAVE_OPENMP -I/home/kazeyoubi/JobWork/simplified_serial/include -O3 -DNDEBUG -std=c++17 -Wall -Wextra -Wpedantic -fopenmp -pthread -o src/CMakeFiles/math_lib.dir/math/integrate.cpp.o -c /home/kazeyoubi/JobWork/simplified_serial/src/math/integrate.cpp",
+  "file": "/home/kazeyoubi/JobWork/simplified_serial/src/math/integrate.cpp",
+  "output": "/home/kazeyoubi/JobWork/simplified_serial/build/src/CMakeFiles/math_lib.dir/math/integrate.cpp.o"
+},
+{
+  "directory": "/home/kazeyoubi/JobWork/simplified_serial/build",
+  "command": "/home/kazeyoubi/miniconda3/envs/cfd7/bin/c++ -DCPPNUM_HAVE_MPI -DCPPNUM_HAVE_OPENMP -I/home/kazeyoubi/JobWork/simplified_serial/include -O3 -DNDEBUG -std=c++17 -Wall -Wextra -Wpedantic -fopenmp -pthread -o src/CMakeFiles/math_lib.dir/math/array.cpp.o -c /home/kazeyoubi/JobWork/simplified_serial/src/math/array.cpp",
+  "file": "/home/kazeyoubi/JobWork/simplified_serial/src/math/array.cpp",
+  "output": "/home/kazeyoubi/JobWork/simplified_serial/build/src/CMakeFiles/math_lib.dir/math/array.cpp.o"
+},
+{
+  "directory": "/home/kazeyoubi/JobWork/simplified_serial/build",
+  "command": "/home/kazeyoubi/miniconda3/envs/cfd7/bin/c++ -DCPPNUM_HAVE_MPI -DCPPNUM_HAVE_OPENMP -I/home/kazeyoubi/JobWork/simplified_serial/include -O3 -DNDEBUG -std=c++17 -Wall -Wextra -Wpedantic -fopenmp -pthread -o apps/CMakeFiles/simplified_serial_app.dir/main.cpp.o -c /home/kazeyoubi/JobWork/simplified_serial/apps/main.cpp",
+  "file": "/home/kazeyoubi/JobWork/simplified_serial/apps/main.cpp",
+  "output": "/home/kazeyoubi/JobWork/simplified_serial/build/apps/CMakeFiles/simplified_serial_app.dir/main.cpp.o"
+},
+{
+  "directory": "/home/kazeyoubi/JobWork/simplified_serial/build",
+  "command": "/home/kazeyoubi/miniconda3/envs/cfd7/bin/c++ -DCPPNUM_HAVE_MPI -DCPPNUM_HAVE_OPENMP -I/home/kazeyoubi/JobWork/simplified_serial/include -O3 -DNDEBUG -std=c++17 -Wall -Wextra -Wpedantic -fopenmp -pthread -o test/CMakeFiles/smatrix_test_app.dir/test_BlockMatrix_schur3d.cpp.o -c /home/kazeyoubi/JobWork/simplified_serial/test/test_BlockMatrix_schur3d.cpp",
+  "file": "/home/kazeyoubi/JobWork/simplified_serial/test/test_BlockMatrix_schur3d.cpp",
+  "output": "/home/kazeyoubi/JobWork/simplified_serial/build/test/CMakeFiles/smatrix_test_app.dir/test_BlockMatrix_schur3d.cpp.o"
+}
+]

@@ -1,0 +1,11 @@
+/home/kazeyoubi/JobWork/simplified_serial/build/CMakeFiles/edit_cache.dir
+/home/kazeyoubi/JobWork/simplified_serial/build/CMakeFiles/rebuild_cache.dir
+/home/kazeyoubi/JobWork/simplified_serial/build/src/CMakeFiles/math_lib.dir
+/home/kazeyoubi/JobWork/simplified_serial/build/src/CMakeFiles/edit_cache.dir
+/home/kazeyoubi/JobWork/simplified_serial/build/src/CMakeFiles/rebuild_cache.dir
+/home/kazeyoubi/JobWork/simplified_serial/build/apps/CMakeFiles/simplified_serial_app.dir
+/home/kazeyoubi/JobWork/simplified_serial/build/apps/CMakeFiles/edit_cache.dir
+/home/kazeyoubi/JobWork/simplified_serial/build/apps/CMakeFiles/rebuild_cache.dir
+/home/kazeyoubi/JobWork/simplified_serial/build/test/CMakeFiles/smatrix_test_app.dir
+/home/kazeyoubi/JobWork/simplified_serial/build/test/CMakeFiles/edit_cache.dir
+/home/kazeyoubi/JobWork/simplified_serial/build/test/CMakeFiles/rebuild_cache.dir

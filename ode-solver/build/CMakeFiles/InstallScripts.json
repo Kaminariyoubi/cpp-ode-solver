@@ -1,0 +1,10 @@
+{
+	"InstallScripts" : 
+	[
+		"/home/kazeyoubi/JobWork/simplified_serial/build/cmake_install.cmake",
+		"/home/kazeyoubi/JobWork/simplified_serial/build/src/cmake_install.cmake",
+		"/home/kazeyoubi/JobWork/simplified_serial/build/apps/cmake_install.cmake",
+		"/home/kazeyoubi/JobWork/simplified_serial/build/test/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

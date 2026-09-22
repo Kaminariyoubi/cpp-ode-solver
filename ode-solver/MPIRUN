@@ -1,0 +1,24 @@
+#!/bin/bash
+set -euo pipefail
+MODE=${1:-serial}; NP=${2:-4}
+
+# WSL2 mpirun 环境修复
+export OMPI_MCA_btl=self,vader,tcp
+export OMPI_MCA_btl_tcp_if_include=lo
+export OMPI_MCA_oob_tcp_if_include=lo
+export OMPI_MCA_ptl_tcp_if_include=lo
+export PRTE_MCA_ptl_tcp_if_include=lo
+
+rm -rf build
+if [ "$MODE" == "mpi" ]; then
+    cmake -S . -B build -G Ninja -DCMAKE_BUILD_TYPE=Release -DCMAKE_CXX_COMPILER=mpicxx
+else
+    cmake -S . -B build -G Ninja -DCMAKE_BUILD_TYPE=Release
+fi
+cmake --build build -j
+
+if [ "$MODE" == "mpi" ]; then
+    mpirun -np "$NP" --oversubscribe ./bin/smatrix_test_app
+else
+    ./bin/smatrix_test_app
+fi
